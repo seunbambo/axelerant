@@ -1,0 +1,43 @@
+.banner {
+  height: 100%;
+  padding-top: 5vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background: url("../img/banner.png") center top;
+  background-size: cover;
+  color: $light-color;
+  width: 100%;
+
+  &__title {
+    font-size: 2rem;
+    text-align: center;
+    margin: auto 5rem;
+    line-height: 2.5rem;
+  }
+
+  .service {
+    margin: 2rem 1rem 0 1rem;
+    display: flex;
+    grid-gap: 0.7rem;
+    flex-direction: column;
+    justify-content: center;
+
+    &__list {
+      padding: 0.1rem;
+      border: 1px solid #444444;
+
+      &--img {
+        max-height: 2.5rem;
+        max-width: 2.5rem;
+        margin: 1rem;
+        float: left;
+      }
+
+      div {
+        text-align: left;
+        margin-top: 2rem;
+      }
+    }
+  }
+}

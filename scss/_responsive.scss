@@ -1,0 +1,139 @@
+@include media-md {
+  .menu-btn {
+    visibility: hidden;
+  }
+
+  .chat-icon {
+    visibility: hidden;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    visibility: visible;
+
+    .menu-nav {
+      display: block;
+      transform: translateY(0);
+      height: 100%;
+      background: transparent;
+      text-align: right;
+
+      &__item {
+        display: inline;
+        padding-right: 2rem;
+      }
+
+      &__link {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .hidden {
+    display: contents;
+  }
+
+  .banner {
+    padding-top: 20vh;
+
+    &__title {
+      font-size: 2.5rem;
+      text-align: center;
+      width: 40%;
+      margin: auto;
+      line-height: 3.5rem;
+    }
+
+    .service {
+      flex-direction: row;
+      grid-gap: 1rem;
+      justify-content: center;
+
+      &__list {
+        padding: 2rem;
+        text-align: center;
+
+        &--img {
+          max-height: 5rem;
+          max-width: 5rem;
+        }
+      }
+    }
+  }
+
+  .second-section {
+    flex-direction: row;
+    padding: $space;
+
+    h2 {
+      margin-bottom: 1rem;
+    }
+
+    #continent-image {
+      width: 33rem;
+    }
+  }
+
+  .testimonials {
+    padding: $space;
+    .clients {
+      grid-gap: 2rem;
+      flex-direction: row;
+
+      .hidden {
+        display: inline;
+      }
+    }
+  }
+
+  .contact {
+    overflow: hidden;
+    width: 100%;
+
+    &__input {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem auto;
+      width: 615px;
+      flex-direction: row;
+    }
+
+    &__text {
+      margin: auto;
+    }
+
+    form {
+      justify-content: center;
+    }
+
+    textarea {
+      height: 120px;
+      width: 600px;
+      margin: auto auto 1rem auto;
+    }
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    .footer__left {
+      text-align: left;
+    }
+
+    .footer__right {
+      text-align: right;
+    }
+  }
+}
+
+@include media-lg {
+}
+
+@include media-xl {
+}

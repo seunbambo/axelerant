@@ -1,0 +1,49 @@
+.contact {
+  padding: 2rem;
+  text-align: center;
+  background: url("../img/contact-image.png") center;
+  background-size: cover;
+  color: #f7f7f7;
+  line-height: 2rem;
+
+  &__input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.5rem 1rem;
+  }
+
+  h2 {
+    text-transform: capitalize;
+  }
+
+  p {
+    margin-bottom: 2rem;
+  }
+
+  input {
+    margin: 0.3rem 0.5rem;
+    width: 100%;
+    padding: 0.5rem;
+    height: 2rem;
+    border: 1px solid #ffffff;
+    border-radius: 0.2rem;
+  }
+
+  textarea {
+    padding: 0.5rem;
+    resize: none;
+    border: 1px solid #ffffff;
+    border-radius: 0.2rem;
+    width: 94%;
+    height: 100px;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+}
